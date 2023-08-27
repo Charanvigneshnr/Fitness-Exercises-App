@@ -33,3 +33,4 @@ const SearchExercises = () => {
 };
 
 export default SearchExercises;
+//41:47
