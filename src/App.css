@@ -1,13 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: auto;
+}
+
 body {
   font-family: 'Josefin Sans';
   background-color: #FFFAFB;
 }
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-
+.navigationBar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -56,7 +64,7 @@ body {
 .hero-banner-img {
   position: absolute;
   right: 40px;
-  top: 0px;
+  top: 120px;
   width: 700px;
   height: 900px;
   margin-top: -330px;
