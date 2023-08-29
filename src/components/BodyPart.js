@@ -48,4 +48,3 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
 );
 
 export default BodyPart;
-//1.10.00
