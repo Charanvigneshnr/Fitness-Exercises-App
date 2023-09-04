@@ -10,7 +10,7 @@ const HeroBanner = () => (
     p="20px"
   >
     <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-      Fitness Club
+      Ready to take your fitness goals to the next level?
     </Typography>
     <Typography
       fontWeight={700}
@@ -18,11 +18,11 @@ const HeroBanner = () => (
       mb="23px"
       mt="30px"
     >
-      Sweat, Smile <br />
-      And Repeat
+      Welcome to <br />
+      LIGHT WEIGHT Gym
     </Typography>
     <Typography fontSize="22px" lineHeight="35px">
-      Check out the most effective exercises personalized to you
+      Check out the most effective exercises as per your needs
     </Typography>
     <Stack>
       <a
@@ -40,7 +40,7 @@ const HeroBanner = () => (
           borderRadius: "4px",
         }}
       >
-        Explore Exercises
+        Let's get started
       </a>
     </Stack>
     <Typography
